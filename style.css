@@ -25,20 +25,25 @@ h1.top-title:hover {
   max-width: 90%;
 }
 
-div.left {
-  float: left;
+
+div.column {
   width: 40%;
-  margin-left: 2rem;
-  margin-right: 1rem;
   background-color: hsla(360, 100%, 100%, 0.75);
   box-shadow: 0 0 1rem hsla(0, 0%, 0%, 0.5);
+  padding: 1rem;
+  border-style: solid;
+  border-width: 2px;
+  border-color: hsla(198, 100%, 50%, 0.8);
+}
+
+div.left {
+  float: left;
+  margin-left: 2rem;
+  margin-right: 1rem;
 }
 
 div.right {
   float: right;
-  width: 40%;
   margin-left: 1rem;
   margin-right: 2rem;
-  background-color: hsla(360, 100%, 100%, 0.75);
-  box-shadow: 0 0 1rem hsla(0, 0%, 0%, 0.5);
 }
