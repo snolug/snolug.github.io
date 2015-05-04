@@ -26,7 +26,7 @@ h1.top-title:hover {
 div.left {
   float: left;
   width: 40%;
-  margin-left: 1rem;
+  margin-left: 2rem;
   margin-right: 1rem;
 }
 
@@ -34,5 +34,5 @@ div.right {
   float: right;
   width: 40%;
   margin-left: 1rem;
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
