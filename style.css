@@ -28,6 +28,8 @@ div.left {
   width: 40%;
   margin-left: 2rem;
   margin-right: 1rem;
+  background-color: hsla(360, 100%, 100%, 0.75);
+  box-shadow: 0 0 1rem hsla(0, 0%, 0%, 0.5);
 }
 
 div.right {
@@ -35,4 +37,6 @@ div.right {
   width: 40%;
   margin-left: 1rem;
   margin-right: 2rem;
+  background-color: hsla(360, 100%, 100%, 0.75);
+  box-shadow: 0 0 1rem hsla(0, 0%, 0%, 0.5);
 }
