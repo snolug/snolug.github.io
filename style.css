@@ -13,6 +13,7 @@ h1.top-title {
   -webkit-transition: all 0.12s ease-out;
   -moz-transition: all 0.12s ease-out;
   -o-transition: all 0.12s ease-out;
+  font-size: 20rem;
 }
 
 h1.top-title:hover {
@@ -23,8 +24,14 @@ h1.top-title:hover {
 
 div.left {
   float: left;
+  width: 40%;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 div.right {
   float: right;
+  width: 40%;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
