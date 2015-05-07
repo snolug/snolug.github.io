@@ -46,9 +46,9 @@ div.band {
   text-align: center;
 }
 
-.gray {
-  background-color: hsla(0, 0%, 78%, 1);
+.color--primary {
+  background-color: hsla(230, 100%, 96%, 1);
 }
-.white {
-  background-color: hsla(360, 100%, 100%, 1);
+.color--secondary {
+  background-color: hsla(0, 0%, 78%, 1);
 }
