@@ -53,6 +53,6 @@ div.band {
   color: #000000;
 }
 .color--secondary {
-  background-color: hsla(0, 0%, 50%, 0.8);
+  background-color: hsla(0, 0%, 10%, 0.8);
   color: #ffffff;
 }
