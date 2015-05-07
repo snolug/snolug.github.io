@@ -47,8 +47,8 @@ div.band {
 }
 
 .color--primary {
-  background-color: hsla(230, 100%, 96%, 1);
+  background-color: hsla(230, 100%, 96%, 0.5);
 }
 .color--secondary {
-  background-color: hsla(0, 0%, 78%, 1);
+  background-color: hsla(0, 0%, 78%, 0.8);
 }
