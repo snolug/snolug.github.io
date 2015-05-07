@@ -32,20 +32,10 @@ div.band {
   width: 100%;
   background-color: hsla(360, 100%, 100%, 0.75);
   box-shadow: 0 0 0.2rem hsla(0, 0%, 0%, 0.5);
-  padding: 1rem;
+  padding: 10rem;
   border-style: solid;
   border-width: 2px;
   border-color: hsla(198, 100%, 50%, 0.8);
+  text-align: center;
 }
 
-div.left {
-  float: left;
-  margin-left: 2rem;
-  margin-right: 1rem;
-}
-
-div.right {
-  float: right;
-  margin-left: 1rem;
-  margin-right: 2rem;
-}
