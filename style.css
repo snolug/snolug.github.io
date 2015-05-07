@@ -18,7 +18,7 @@ h1.top-title {
   -webkit-transition: all 0.12s ease-out;
   -moz-transition: all 0.12s ease-out;
   -o-transition: all 0.12s ease-out;
-  font-size: 20rem;
+  font-size: 15rem;
   text-align: center;
   width: 80%;
   margin-left: auto;
@@ -50,11 +50,11 @@ div.band {
 
 .color--primary {
   background-color: hsla(360, 100%, 100%, 0.8);
-  color: #111111;
+  color: #010101;
   color: hsla(0, 0%, 5%, 0.8);
 }
 .color--secondary {
   background-color: hsla(0, 0%, 5%, 0.8);
-  color: #eeeeee;
+  color: #fefefe;
   color: hsla(360, 100%, 100%, 0.8);
 }
