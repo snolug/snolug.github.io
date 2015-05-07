@@ -28,8 +28,8 @@ h1.top-title:hover {
 }
 
 
-div.column {
-  width: 40%;
+div.band {
+  width: 100%;
   background-color: hsla(360, 100%, 100%, 0.75);
   box-shadow: 0 0 0.2rem hsla(0, 0%, 0%, 0.5);
   padding: 1rem;
