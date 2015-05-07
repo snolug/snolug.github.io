@@ -1,3 +1,7 @@
+body {
+  position: relative;
+  margin: 0;
+}
 p {
   font-family: sans-serif;
 }
@@ -29,6 +33,7 @@ h1.top-title:hover {
 
 
 div.band {
+  position: relative;
   width: 100%;
   padding-left: 3rem;
   padding-right: 3rem;
