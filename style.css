@@ -34,6 +34,7 @@ h1.top-title:hover {
 
 
 div.band {
+  box-sizing: border-box;
   position: relative;
   width: 100%;
   padding-left: 3rem;
