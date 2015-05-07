@@ -27,6 +27,12 @@ h1.top-title {
   position: relative;
 }
 
+@media (min-width: 769px) {
+  h1.top-title {
+    font-size: 15rem;
+  }
+}
+
 h1.top-title:hover {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
