@@ -1,6 +1,7 @@
 body {
   position: relative;
   margin: 0;
+  box-sizing: border-box;
 }
 p {
   font-family: sans-serif;
