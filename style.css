@@ -9,12 +9,12 @@ p {
 
 h1.top-title {
   text-shadow:
-  1px 1px 0 #cccccc,
-  2px 2px 0 #cccccc,
-  3px 3px 0 #444444,
-  4px 4px 0 #444444,
-  5px 5px 0 #444444,
-  6px 6px 0 #444444;
+    1px 1px 0 #cccccc,
+    2px 2px 0 #cccccc,
+    3px 3px 0 #444444,
+    4px 4px 0 #444444,
+    5px 5px 0 #444444,
+    6px 6px 0 #444444;
   -webkit-transition: all 0.12s ease-out;
   -moz-transition: all 0.12s ease-out;
   -o-transition: all 0.12s ease-out;
@@ -23,6 +23,8 @@ h1.top-title {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  box-sizing: border-box;
+  position: relative;
 }
 
 h1.top-title:hover {
