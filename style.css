@@ -34,6 +34,8 @@ div.band {
   padding-right: 3rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
