@@ -32,10 +32,19 @@ div.band {
   width: 100%;
   background-color: hsla(360, 100%, 100%, 0.75);
   box-shadow: 0 0 0.2rem hsla(0, 0%, 0%, 0.5);
-  padding: 10rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   border-style: solid;
   border-width: 2px;
   border-color: hsla(198, 100%, 50%, 0.8);
   text-align: center;
 }
 
+.gray {
+  background-color: hsla(360, 100%, 20%, 1);
+}
+.white {
+  background-color: hsla(360, 100%, 100%, 1);
+}
