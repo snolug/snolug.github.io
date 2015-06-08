@@ -6,3 +6,8 @@ function getSunday(now) {
 }
 
 document.getElementById("firstsunday").textContent = getSunday(new Date());
+
+
+window.onload = function () {
+  document.getElementById("currentyear").textContent = new Date().getFullYear();
+};
