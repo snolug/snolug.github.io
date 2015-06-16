@@ -77,8 +77,7 @@ div.band {
 }
 
 .btn:hover {
-  padding: 0.5rem 1rem;
-  background-color: #aaaaaa;
+  background-color: #cccccc;
   color: #dd5713;
   box-shadow: 1px 1px 5px #222222;
 }
