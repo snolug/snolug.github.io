@@ -64,3 +64,18 @@ div.band {
   color: #fefefe;
   color: hsla(360, 100%, 100%, 0.8);
 }
+
+
+.btn {
+  padding: 0.5rem 1rem;
+  background-color: #aaaaaa;
+  color: #dd4713;
+  box-shadow: 1px 1px 2px #111111;
+}
+
+.btn:hover {
+  padding: 0.5rem 1rem;
+  background-color: #aaaaaa;
+  color: #dd5713;
+  box-shadow: 1px 1px 5px #222222;
+}
