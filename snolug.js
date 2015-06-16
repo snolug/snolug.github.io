@@ -1,11 +1,11 @@
-function getSunday(now) {
-  now = new Date(now);
+function getSunday() {
+  now = new Date();
   var day = now.getDay(),
-    diff = now.getDate() - day + (day === 0 ? -7:1);
+      diff = now.getDate() - day + (day === 0 ? -7 : 1);
   return new Date(now.setDate(diff));
 }
 
-document.getElementById("firstsunday").textContent = getSunday(new Date());
+document.getElementById("firstsunday").textContent = getSunday();
 
 
 window.onload = function () {
