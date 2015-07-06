@@ -82,3 +82,8 @@ div.band {
   color: #dd5713;
   box-shadow: 1px 1px 5px #222222;
 }
+
+#firstsunday, .date {
+  font-size: 24px;
+  font-family: monospace;
+}
