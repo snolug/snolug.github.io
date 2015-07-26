@@ -70,7 +70,7 @@ div.band {
 
 .btn {
   padding: 1rem 2rem;
-  font-size: 1.5rem;
+  font-size: 14px;
   background-color: #bbbbbb;
   color: #dd4713;
   box-shadow: 1px 1px 2px #111111;
@@ -78,6 +78,12 @@ div.band {
   font-family: monospace;
 }
 
+@media (min-width: 76rem) {
+  .btn {
+    font-size: 1.5rem;
+  }
+}
+  
 .btn:hover {
   background-color: #cccccc;
   color: #dd5713;
@@ -91,4 +97,8 @@ div.band {
 
 footer {
   text-align: left;
+}
+
+img {
+  max-width: 90%;
 }
