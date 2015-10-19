@@ -27,7 +27,7 @@ Date.prototype.shortFormat = function () {
 var nowMonth = new Date().getMonth() + 1;
 var nowYear = new Date().getFullYear();
 
-window.onload = function () {
+window.addEventListener('load', function () {
   document.getElementById("currentyear").textContent = new Date().getFullYear();
   document.getElementById("firstsunday").textContent = firstSunday(nowMonth, nowYear);
-};
+});
