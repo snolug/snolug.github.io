@@ -27,7 +27,7 @@
   };
 
   Date.prototype.shortFormat = function () {
-    return Date.getFullYear() + "." + (Date.getMonth() + 1) + "." + Date.getDate();
+    return this.getFullYear() + "." + (this.getMonth() + 1) + "." + this.getDate();
   };
 
   var nowMonth = new Date().getMonth();
