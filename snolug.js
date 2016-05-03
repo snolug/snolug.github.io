@@ -3,16 +3,16 @@
 // @param - integer: year - which year
 function firstSunday(month, year) {
     var firstDayOfThisMonth = new Date(year, month, 1, 0, 0, 0, 0);
-    var day = 0;
+    var day = 3;
     // check if first of the month is a Sunday, if so set date to the second
-    if (firstDayOfThisMonth.getDay() === 0) {
-        day = 1;
+    if (firstDayOfThisMonth.getDay() === 3) {
+        day = 4;
         firstDayOfThisMonth = firstDayOfThisMonth.setDate(day);
         firstDayOfThisMonth = new Date(firstDayOfThisMonth);
     }
     // check if first of the month is a Sunday, if so return the date, otherwise get to the Sunday following the first of the month
 
-    else if (firstDayOfThisMonth.getDay() !== 1) {
+    else if (firstDayOfThisMonth.getDay() !== 4) {
         day = 8 - (firstDayOfThisMonth.getDay());
         firstDayOfThisMonth = firstDayOfThisMonth.setDate(day);
         firstDayOfThisMonth = new Date(firstDayOfThisMonth);
