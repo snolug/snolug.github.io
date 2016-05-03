@@ -1,10 +1,14 @@
+/*global window*/
+/*jslint browser:true, white:true*/
 (function () {
 
   'use strict';
+
   // get first Wednesday of the month, useful for determining week durations
   // @param - integer: month - which month
   // @param - integer: year - which year
-  var firstWednesday(month, year) {
+
+  var firstWednesday= function (month, year) {
     var firstDayOfThisMonth = new Date(year, month, 1, 0, 0, 0, 0);
     var day = 3;
     // check if first of the month is a Wednesday, if so set date to the second
@@ -20,10 +24,10 @@
       firstDayOfThisMonth = new Date(firstDayOfThisMonth);
     }
     return firstDayOfThisMonth.shortFormat();
-  }
+  };
 
   Date.prototype.shortFormat = function () {
-    return this.getFullYear() + "." + (this.getMonth() + 1) + "." + this.getDate();
+    return Date.getFullYear() + "." + (Date.getMonth() + 1) + "." + Date.getDate();
   };
 
   var nowMonth = new Date().getMonth();
